@@ -106,17 +106,17 @@ input[type="text"]{
     background-color: #FF5400;
 }
 .when::placeholder{
-    background-image: url(../images/selection.png);
+    background-image: url('../image/selection.png');
     background-repeat: no-repeat;
     background-position: bottom right; 
 }
 .select::placeholder{
-    background-image: url(../images/selection.png);
+    background-image: url('../image/selection.png');
     background-repeat: no-repeat;
     background-position: bottom right; 
 }
 .btn_form{
-    background-image: url(../images/seach.png);
+    background-image: url('../image/seach.png');
     background-repeat: no-repeat;
   background-position: 10px 10px; 
   margin-top: 28px;
