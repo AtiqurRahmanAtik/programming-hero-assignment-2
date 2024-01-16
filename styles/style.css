@@ -60,6 +60,7 @@ background-repeat: no-repeat;
 background-size: cover;
 object-fit: cover;
 margin-bottom: 0px;
+margin: 0 auto;
 
 }
 .banner_child{
@@ -84,31 +85,49 @@ line-height: 26px;
 width: 556px;
 }
 
+
+.form_main{
+   
+    opacity: 1;   
+    width: 75%; 
+    position: relative; 
+    top: 30%;
+    left: 13%;
+}
 .banner_form{
-    display: inline-flex;
+    display: flex;
 padding: 16px;
 align-items: flex-start;
 justify-content: center;
 gap: 24px;
 border-radius: 8px;
-background: #FFFFFF;
-/* opacity: 0.5; */
-width: 100%;
-   position: relative; 
-   top: 30%;
+
+
+background-color:white;
+opacity: .7;
 
 }
+.banner_form input{
+   
+  background-color: white;
+  
+}
 
-.btn_form{
+
+
+
+.banner_form .btn_form{
     background-color: #FF5400;
+    
+ 
 }
-input[type="text"]{
-    background-color: #FF5400;
-}
+
 .when::placeholder{
     background-image: url('../image/selection.png');
     background-repeat: no-repeat;
     background-position: bottom right; 
+  
+ 
 }
 .select::placeholder{
     background-image: url('../image/selection.png');
@@ -322,13 +341,19 @@ border: none;
 }
 input[type="text"]{
     margin-top: 30px;
+   
+}
+input:focus{
+   outline: none;
 }
 
 input[type="text"]::placeholder{
     padding-left: 15px;
+    
 }
 input[type="email"]::placeholder{
     padding-left: 15px;
+   
 }
 .news_btn{
     width: 393px;
