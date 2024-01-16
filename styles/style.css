@@ -305,7 +305,9 @@ padding: 20px;
 
 
 /* grid-container */
-
+.destination_container{
+    margin-top: 60px;
+}
 .destination_title{
     color: #131318;
 text-align: center;
@@ -511,11 +513,9 @@ margin-bottom: 30px;
 
 
 /* responsive our popular Tours  */
-/* For  mobile devices  */
+/* For  mobile devices  Use maximum width 600px*/
 
 @media screen and (max-width:600px) {
- 
-
  
 
     /* our popular tours */
@@ -545,6 +545,18 @@ width: 100%;
         margin-top: 20px;
     }
     
+
+    /* header or navbar section */
+    .navbar{
+        width: auto;
+        flex-direction: column;
+        margin: 40px auto; 
+    }
+
+    .nav_list >ul{
+        flex-direction: column;
+        
+    }
 
 /*Newsletter section*/
 
