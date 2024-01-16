@@ -55,7 +55,7 @@ margin-left: 16px;
 height: 500px;
 border-radius: 16px;
 background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
-background-image: url("../images/B.png");
+background-image: url('../image/B.png');
 background-repeat: no-repeat;
 background-size: cover;
 object-fit: cover;
