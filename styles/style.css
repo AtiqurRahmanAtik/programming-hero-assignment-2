@@ -563,6 +563,20 @@ width: 100%;
 
 }
 
+/* destination section */
+.grid-container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    
+    grid-gap: 20px 30px; 
+    width: 1000px;
+}
+.grid-container >img{
+    width: 100%;
+    
+}
+
 
 /* choose us section  */
 .choose_container{
